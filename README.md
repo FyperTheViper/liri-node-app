@@ -2,6 +2,10 @@
 Node Project 
 
 Hello and Welcome to this installment of Github tours. Today we'll be exploring LIRI bot, a project that uses node and contains four commands. 
+Typing "concert-this" and a band uses the Bands In Town API to locate where and when future concerts are.
+Typing "spotify-this-song" and a song name uses the Spotify API to 
+"movie-this"
+"do-what-it-says"
 
 
 ![alt text](https://i.imgur.com/sLLZPP5.png "Switch Cases")

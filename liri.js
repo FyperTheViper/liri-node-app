@@ -7,10 +7,10 @@ let fs = require("fs");
 let chalk = require('chalk');
 let log = console.log;
 let spotify = new Spotify(keys.spotify);
-let spacing = " ";
+let spacing = "******************************";
 
 let caseLine = process.argv[2];
-let userLine = process.argv[3];
+let userLine = process.argv.slice(3).join(" ");
 
 //*******WELCOME TO LIRI **********//
 switch (caseLine) {
@@ -29,7 +29,7 @@ switch (caseLine) {
 }
 
 //Greeting message
-log(chalk.grey("\nWelcome to LIRI! Type in a command below followed by a song, artist or movie:"), chalk.green("\nconcert-this  spotify-this-song  movie-this  do-what-it-says") + spacing);
+log(chalk.grey("\nWelcome to LIRI! Type in a command below followed by a song, artist or movie:"), chalk.green("\nconcert-this  spotify-this-song  movie-this  do-what-it-says"));
 
 //Bands in Town
 function concertThis() {
@@ -42,11 +42,12 @@ function concertThis() {
         if (!error && response.statusCode === 200  && userLine != undefined) {
             let jBody = JSON.parse(body);
             for (i = 0; i < jBody.length; i++) {
-                let showConcert =
-                    "\n****************************** BANDS IN TOWN RESULT *******************************\n" +
-                    "\nVenue: " + jBody[i].venue.name +
-                    "\nCity: " + jBody[i].venue.city + ", " + jBody[i].venue.country +
-                    "\nDate: "+ moment(jBody[i].datetime).format("MM/DD/YY");
+                let showConcert = [
+                    spacing + " BANDS IN TOWN RESULT " + spacing,
+                    "Venue: " + jBody[i].venue.name,
+                    "City: " + jBody[i].venue.city + ", " + jBody[i].venue.country,
+                    "Date: "+ moment(jBody[i].datetime).format("MM/DD/YY") + "\n"
+                    ].join("\n\n");
                 log(showConcert);
                 logResults(showConcert);
             }
@@ -69,13 +70,13 @@ function spotifyThis() {
     }, function (error, data) {
         if (!error && data) {
             let narrow = data.tracks.items;
-            let showSpotify =
-                "\n****************************** SPOTIFY RESULT *******************************\n" +
-                "\nArtist: " + narrow[0].artists[0].name +
-                "\nSong title: " + narrow[0].name +
-                "\nAlbum name: " + narrow[0].album.name +
-                "\nURL Preview: " + narrow[0].preview_url +
-                "\n" + spacing + "\n";
+            let showSpotify = [
+                spacing + " SPOTIFY RESULT " + spacing,
+                "Artist: " + narrow[0].artists[0].name,
+                "Song title: " + narrow[0].name,
+                "Album name: " + narrow[0].album.name,
+                "URL Preview: " + narrow[0].preview_url + "\n"
+                ].join("\n\n");
             log(showSpotify);
             logResults(showSpotify);
         } else {
@@ -94,17 +95,17 @@ function movieThis() {
     saveSearch();
     if (!error && response.statusCode === 200 && userLine != undefined) {
         let jBody = JSON.parse(data);
-        let showMovie =
-            "\n****************************** OMDB RESULT *******************************\n" +
-            "\nTitle: " + jBody.Title +
-            "\nYear Released: " + jBody.Year +
-            "\nIMDB Rating: " + jBody.imdbRating +
-            "\nRotten Tomatoes Rating: " + jBody.Ratings[1].Value +
-            "\nCountry: " + jBody.Country +
-            "\nLanguage: " + jBody.Language +
-            "\nPlot Summary: " + jBody.Plot +
-            "\nActors: " + jBody.Actors +
-            "\n" + spacing + "\n";
+        let showMovie = [
+            spacing + " OMDB RESULT " + spacing,
+            "Title: " + jBody.Title,
+            "Year Released: " + jBody.Year,
+            "IMDB Rating: " + jBody.imdbRating,
+            "Rotten Tomatoes Rating: " + jBody.Ratings[1].Value,
+            "Country: " + jBody.Country,
+            "Language: " + jBody.Language,
+            "Plot Summary: " + jBody.Plot,
+            "Actors: " + jBody.Actors + "\n"
+            ].join("\n\n");
         log(showMovie);
         logResults(showMovie);
     } else {

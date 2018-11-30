@@ -1,106 +1,50 @@
+﻿
 
 ____________________NEW  spotify-this-song  SEARCH_____________________
 RESULTS FOR:
-careless
+"I Want it That Way"
+****************************** SPOTIFY RESULT ******************************
 
-****************************** SPOTIFY RESULT *******************************
+Artist: Backstreet Boys
 
-Artist: George Michael
-Song title: Careless Whisper
-Album name: Ladies And Gentlemen... The Best Of George Michael
-URL Preview: https://p.scdn.co/mp3-preview/75d3d091213d60d9f3ed2c0698b846177076b0d0?cid=dff61a7353354d20a3d64ba3f8874d62
- 
+Song title: I Want It That Way
+
+Album name: The Hits--Chapter One
+
+URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=dff61a7353354d20a3d64ba3f8874d62
 
 
 ____________________NEW  movie-this  SEARCH_____________________
 RESULTS FOR:
-memento
+apocalypto
+****************************** OMDB RESULT ******************************
 
-****************************** OMDB RESULT *******************************
+Title: Apocalypto
 
-Title: Memento
-Year Released: 2000
-IMDB Rating: 8.5
-Rotten Tomatoes Rating: 92%
+Year Released: 2006
+
+IMDB Rating: 7.8
+
+Rotten Tomatoes Rating: 66%
+
 Country: USA
-Language: English
-Plot Summary: A man with short-term memory loss attempts to track down his wife's murderer.
-Actors: Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior
- 
+
+Language: Maya
+
+Plot Summary: As the Mayan kingdom faces its decline, a young man is taken on a perilous journey to a world ruled by fear and oppression.
+
+Actors: Rudy Youngblood, Dalia Hernández, Jonathan Brewer, Morris Birdyellowhead
 
 
 ____________________NEW  spotify-this-song  SEARCH_____________________
 RESULTS FOR:
-"I Want it That Way"
+theyre coming to take me away
+****************************** SPOTIFY RESULT ******************************
 
-****************************** SPOTIFY RESULT *******************************
+Artist: Napoleon XIV
 
-Artist: Backstreet Boys
-Song title: I Want It That Way
-Album name: The Hits--Chapter One
-URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=dff61a7353354d20a3d64ba3f8874d62
- 
+Song title: They're Coming to Take Me Away, Ha-Haaa! - Single
 
+Album name: They're Coming to Take Me Away, Ha-Haaa! - Single
 
-____________________NEW  spotify-this-song  SEARCH_____________________
-RESULTS FOR:
-"I Want it That Way"
-
-****************************** SPOTIFY RESULT *******************************
-
-Artist: Backstreet Boys
-Song title: I Want It That Way
-Album name: The Hits--Chapter One
-URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=dff61a7353354d20a3d64ba3f8874d62
- 
-
-
-____________________NEW  concert-this  SEARCH_____________________
-RESULTS FOR:
-stylistics
-
-****************************** BANDS IN TOWN RESULT *******************************
-
-Venue: Indigo At The O2
-City: London, United Kingdom
-Date: 11/30/18
-****************************** BANDS IN TOWN RESULT *******************************
-
-Venue: 琉球新報ホール
-City: 那覇市, 日本
-Date: 12/27/18
-****************************** BANDS IN TOWN RESULT *******************************
-
-Venue: Golden Nugget Hotel & Casino
-City: Lake Charles, United States
-Date: 01/18/19
-****************************** BANDS IN TOWN RESULT *******************************
-
-Venue: Paramount Theatre-Oakland
-City: Oakland, United States
-Date: 12/31/18
-****************************** BANDS IN TOWN RESULT *******************************
-
-Venue: Neal S Blaisdell Center
-City: Honolulu, United States
-Date: 12/30/18
-****************************** BANDS IN TOWN RESULT *******************************
-
-Venue: Patricia & Arthur Modell Performing Arts Center at The Lyric
-City: Baltimore, United States
-Date: 02/15/19
-****************************** BANDS IN TOWN RESULT *******************************
-
-Venue: DAR Constitution Hall
-City: Washington, United States
-Date: 02/14/19
-****************************** BANDS IN TOWN RESULT *******************************
-
-Venue: Beacon Theatre
-City: New York, United States
-Date: 02/16/19
-****************************** BANDS IN TOWN RESULT *******************************
-
-Venue: ANTHEM LOUNGE in the TROPICANA CASINO
-City: Atlantic City, United States
-Date: 02/17/19
+URL Preview: https://p.scdn.co/mp3-preview/b4b22781d1acf7eb593360f24b39d07fea08a6aa?cid=dff61a7353354d20a3d64ba3f8874d62

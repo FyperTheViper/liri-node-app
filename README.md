@@ -9,8 +9,10 @@ Typing "movie-this" and a movie title brings back a multitude of information abo
 
 
 ![alt text](https://i.imgur.com/sLLZPP5.png "Switch Cases")
+LIRI is built on switch cases which different functions depending on what is typed in index 2 on the terminal command line (variable caseLine). Index 3 and beyond are the user search terms (variable userLine). 
 
 ![alt text](https://i.imgur.com/CynRQun.png "Bands in Town Function")
+Inside concertThis() are conditional statements which check if userLine is undefined. If it is not undefined it sends a request query to Bands in Town and checks if the response code is 200 and not an error. If those conditions are met then it does a for loop through the recieved results.
 
 ![alt text](https://i.imgur.com/cVAdqum.png "Spotify and OMDB Function")
 
